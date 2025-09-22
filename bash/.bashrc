@@ -11,3 +11,4 @@ PS1='[\u@\h \W]\$ '
 
 #start starship
 eval "$(starship init bash)"
+. "$HOME/.cargo/env"
