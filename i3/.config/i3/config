@@ -223,7 +223,7 @@ exec_always --no-startup-id killall polybar
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
 
 # adds the keybind Alt+Shift to switch keyboard layout
-exec_always --no-startup-id setxkbmap -layout "us,it" -option "grp:alt_shift_toggle"
+exec_always --no-startup-id sh -c "sleep 1 && setxkbmap -layout 'us,it' -option 'grp:alt_shift_toggle'"
 
 #set primary monitor and workspaces layout
 exec --no-startup-id ~/.config/i3/xrandr_layout.sh

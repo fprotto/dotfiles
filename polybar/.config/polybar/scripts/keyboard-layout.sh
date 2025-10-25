@@ -2,7 +2,6 @@
 
 layouts=("it" "us")
 
-# Legge il layout attuale
 current=$(setxkbmap -query | awk '/layout/{print $2}')
 
 if [[ $1 == "toggle" ]]; then
