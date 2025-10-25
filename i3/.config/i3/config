@@ -95,6 +95,7 @@ bindsym $mod+r mode "resize"
 bindsym $mod+Return exec --no-startup-id alacritty
 bindsym $mod+b exec --no-startup-id flatpak run one.ablaze.floorp
 bindsym $mod+c exec --no-startup-id code
+bindsym $mod+o exec --no-startup-id obsidian
 bindsym Print exec --no-startup-id scrot -s ~/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/screenshots/$(date +"%Y-%m-%d-%T")-screenshot.png"
 
 # kill focused window
