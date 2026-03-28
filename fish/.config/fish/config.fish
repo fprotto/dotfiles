@@ -1,9 +1,6 @@
-set -g starship_startup
+set -g fish_greeting ""
 
-## Start starship
-function starship_startup
-    starship init fish | source
-end
+starship init fish | source
 
 # Format man pages
 set -x MANROFFOPT "-c"
@@ -132,4 +129,3 @@ alias jctl="journalctl -p 3 -xb"
 
 # Recent installed packages
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
-
