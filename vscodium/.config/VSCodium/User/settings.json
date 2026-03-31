@@ -1,6 +1,6 @@
 {
-    "workbench.colorTheme": "Catppuccin Mocha",
-    "workbench.iconTheme": "catppuccin-mocha",
+    "workbench.colorTheme": "Darcula",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.productIconTheme": "material-product-icons",
     "editor.minimap.enabled": false,
     "workbench.statusBar.visible": false,
