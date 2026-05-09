@@ -8,10 +8,13 @@
     "window.customTitleBarVisibility": "never",
     "window.menuBarVisibility": "toggle",
     "editor.fontFamily": "'MesloLGS Nerd Font Propo', monospace",
-    "editor.padding.top": 20,
+    "editor.padding.top": 0,
     "editor.smoothScrolling": true,
     "editor.cursorSmoothCaretAnimation": "on",
     "workbench.list.smoothScrolling": true,
     "terminal.integrated.smoothScrolling": true,
-    "editor.cursorBlinking": "smooth"
+    "editor.cursorBlinking": "smooth",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.bracketPairs": "active"
 }
