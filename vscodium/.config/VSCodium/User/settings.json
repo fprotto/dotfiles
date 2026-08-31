@@ -16,5 +16,6 @@
     "editor.cursorBlinking": "smooth",
     "editor.bracketPairColorization.enabled": true,
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "editor.guides.bracketPairs": "active"
+    "editor.guides.bracketPairs": "active",
+    "update.showReleaseNotes": false
 }
